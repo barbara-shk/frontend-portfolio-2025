@@ -13,4 +13,21 @@
 
 🧠 Reviewed Tailwind v4 changes and updated setup to align with current best practices (no init, no config needed unless extending)
 
-Next up: building base components, adding page layout, and wiring up Framer Motion for smooth transitions.
+---
+
+🗓️ Update – May 28, 2025
+✅ Added core design tokens using `@theme` (colors, typography, spacing, etc.)
+
+✅ Created semantic tokens for use case heading (font size, weight, stroke, etc.)
+
+✅ Built `utilities.css` with custom utility classes:
+  • `.heading-usecase` for section titles
+  • `.btn`, `.btn-primary`, `.btn-outline` for buttons
+  • `.tag` for skill/category pills
+  • `.card`, `.card-hover` for project blocks
+
+✅ Removed `[var(--...)]` usage from markup by using clean, readable class names
+
+✅ Fully aligned with Tailwind v4’s CSS-first setup (no config, just tokens + utilities)
+
+🔜 Next: build base layout (`Header`, `Footer`, `Main`) and hook up Framer Motion
