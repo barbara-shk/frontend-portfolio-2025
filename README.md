@@ -4,12 +4,12 @@ Hi! I'm Barbara, a front-end developer with a UX design background. This portfol
 
 ## 🔧 Tech Stack
 
-* **Framework:** React + Vite + TypeScript
-* **Styling:** Tailwind CSS v4 (CSS-first config, clean and fast)
-* **Animations:** Framer Motion (for fluid transitions and interaction)
-* **Linting:** ESLint + Prettier + JSX a11y rules
-* **Content:** Markdown/MDX blog coming soon
-* **Design System:** Custom components built with Radix UI and Tailwind
+- **Framework:** React + Vite + TypeScript
+- **Styling:** Tailwind CSS v4 (CSS-first config, clean and fast)
+- **Animations:** Framer Motion (for fluid transitions and interaction)
+- **Linting:** ESLint + Prettier + JSX a11y rules
+- **Content:** Markdown/MDX blog coming soon
+- **Design System:** Custom components built with Radix UI and Tailwind
 
 ## 🚀 Getting Started
 
@@ -24,10 +24,10 @@ Then head to `http://localhost:5173`.
 
 ## 🛠️ Tooling
 
-* **Linting:** ESLint with TypeScript, React, and accessibility rules
-* **Formatting:** Prettier
-* **Accessibility:** `eslint-plugin-jsx-a11y` to enforce a11y during development
-* **Strict mode:** TypeScript strict config is on
+- **Linting:** ESLint with TypeScript, React, and accessibility rules
+- **Formatting:** Prettier
+- **Accessibility:** `eslint-plugin-jsx-a11y` to enforce a11y during development
+- **Strict mode:** TypeScript strict config is on
 
 ## 📂 Project Structure
 
@@ -44,10 +44,10 @@ src/
 
 This portfolio isn’t just a resume — it's a living project. I’m using it to:
 
-* Build and scale a custom design system
-* Play with CSS graphics, SVG blobs, and animation
-* Write about my process and share what I learn
-* Showcase real front-end architecture, not just pretty pixels
+- Build and scale a custom design system
+- Play with CSS graphics, SVG blobs, and animation
+- Write about my process and share what I learn
+- Showcase real front-end architecture, not just pretty pixels
 
 ## 🧐 Philosophy
 

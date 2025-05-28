@@ -1,0 +1,9 @@
+@tailwind base;
+
+@layer base {
+  html {
+    font-family: var(--font-base);
+    background-color: var(--color-surface);
+    color: var(--color-text);
+  }
+}

@@ -1,0 +1,86 @@
+@tailwind utilities;
+
+@layer utilities {
+  /* Use Case Heading */
+  .heading-usecase {
+    font-size: var(--font-size-usecase);
+    font-weight: var(--font-weight-usecase);
+    line-height: var(--line-height-usecase);
+    text-transform: uppercase;
+    -webkit-text-stroke-width: var(--heading-outline-stroke-width);
+    -webkit-text-stroke-color: var(--heading-outline-stroke-color);
+    color: transparent;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    transition:
+      background var(--motion-base),
+      color var(--motion-base);
+  }
+
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+  }
+
+  .btn-primary:hover {
+    filter: brightness(1.1);
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+  }
+
+  /* Tags / Pills */
+  .tag {
+    display: inline-block;
+    padding: 0 var(--space-sm);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+    background-color: var(--color-muted);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+  }
+
+  /* Text Utilities */
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+
+  .text-display {
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-bold);
+    line-height: 1.1;
+  }
+
+  /* Card */
+  .card {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: var(--space-lg);
+    transition:
+      box-shadow var(--motion-base),
+      transform var(--motion-base);
+  }
+
+  .card-hover:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+}
